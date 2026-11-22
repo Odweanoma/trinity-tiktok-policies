@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trinity TikTok Gateway</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🕸️%3C/text%3E%3C/svg%3E">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #000000;
+            --accent: #fe2c55;
+            --text: #1a1a1a;
+            --muted: #666666;
+            --bg: #ffffff;
+            --card: #f5f5f5;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: var(--primary);
+            color: #fff;
+            padding: 1.5rem 1rem;
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 2rem;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            display: inline-block;
+            margin-bottom: 0.5rem;
+        }
+
+        .tagline {
+            font-size: 1rem;
+            opacity: 0.9;
+            font-weight: 400;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 3rem 1.5rem;
+        }
+
+        .hero {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 1.125rem;
+            color: var(--muted);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .status-badge {
+            display: inline-block;
+            background-color: #fff3cd;
+            color: #856404;
+            border: 1px solid #ffeeba;
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-top: 1.5rem;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .feature-card {
+            background: var(--card);
+            border: 1px solid #e0e0e0;
+            border-radius: 12px;
+            padding: 1.5rem;
+            transition: transform 0.2s;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+
+        .feature-card h3 {
+            font-size: 1.125rem;
+            margin-bottom: 0.75rem;
+            color: var(--primary);
+        }
+
+        .feature-card p {
+            font-size: 0.9rem;
+            color: var(--muted);
+            line-height: 1.5;
+        }
+
+        .cta-section {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: var(--primary);
+            color: #fff;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: background-color 0.2s;
+            border: none;
+            cursor: pointer;
+        }
+
+        .cta-button:hover {
+            background-color: #333333;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .nav-links a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+            border-bottom: 2px solid transparent;
+            transition: border-color 0.2s;
+        }
+
+        .nav-links a:hover {
+            border-bottom: 2px solid var(--accent);
+        }
+
+        footer {
+            border-top: 1px solid #e0e0e0;
+            padding: 2rem 1.5rem;
+            text-align: center;
+            color: var(--muted);
+            font-size: 0.875rem;
+        }
+
+        footer a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            main {
+                padding: 2rem 1rem;
+            }
+            .nav-links {
+                flex-direction: column;
+                gap: 1rem;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Trinity TikTok Gateway</div>
+        <div class="tagline">Independent AI-Assisted Creator Tool — Under Development</div>
+    </header>
+
+    <nav class="nav-links">
+        <a href="#">Home</a>
+        <a href="terms.html">Terms of Service</a>
+        <a href="privacy.html">Privacy Policy</a>
+    </nav>
+
+    <main>
+        <div class="hero">
+            <h1>Trinity TikTok Gateway</h1>
+            <p>An independent AI-assisted creator tool under development, designed to help authorized TikTok creators analyze profiles, review public videos, understand performance statistics, and prepare content drafts.</p>
+            <div class="status-badge">
+                ⚠️ Sandbox Development — Not Approved for Production Use
+            </div>
+        </div>
+
+        <section class="features">
+            <div class="feature-card">
+                <h3>Profile Analysis</h3>
+                <p>Analyze TikTok creator profiles with AI assistance to understand audience composition and content themes.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Video Review</h3>
+                <p>Review public TikTok videos to identify trends, engagement patterns, and content opportunities.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Performance Statistics</h3>
+                <p>View and interpret public performance metrics to inform content strategy and creative decisions.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Content Drafts</h3>
+                <p>Prepare content drafts and ideas based on analyzed trends and audience insights.</p>
+            </div>
+        </section>
+
+        <div class="cta-section">
+            <a href="#" class="cta-button">Learn More About the Gateway</a>
+        </div>
+
+        <hr style="margin: 3rem 0; border: none; border-top: 1px solid #e0e0e0;">
+
+        <div style="text-align: center; color: var(--muted); font-size: 0.9rem;">
+            <p><strong>Important Notice:</strong> The TikTok integration for Trinity TikTok Gateway is currently in Sandbox development and is not yet approved for production use. This website is for informational purposes only.</p>
+            <p>Contact: <a href="mailto:odweanoma@gmail.com">odweanoma@gmail.com</a></p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Trinity TikTok Gateway. All rights reserved.</p>
+        <p><a href="mailto:odweanoma@gmail.com">odweanoma@gmail.com</a> | <a href="terms.html">Terms of Service</a> | <a href="privacy.html">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
